@@ -14,6 +14,7 @@ import json
 import os
 import re
 import sys
+import subprocess
 from pathlib import Path
 from typing import Sequence, Tuple, List, NoReturn
 
@@ -427,8 +428,8 @@ def create_new_mission_text(
     return string
 
 
-def invoke_MissionResaver(mission_path: Path or str, pwcg_missions_dir: Path or str, run: bool = True) -> NoReturn:
-    """Construct the MissionResaver command and run it as a subprocess unless told otherwise."""
+def construct_MissionResaver(mission_path: Path or str, pwcg_missions_dir: Path or str) -> NoReturn:
+    """Construct the MissionResaver command."""
 
     # basepath = Path(os.getcwd()).parent
     basepath = Path(pwcg_missions_dir).resolve().parent.parent.parent
@@ -441,20 +442,11 @@ def invoke_MissionResaver(mission_path: Path or str, pwcg_missions_dir: Path or 
     mission_path = Path(mission_path).resolve()
 
     if missionresaver_path.exists():
-        command = f"\"{missionresaver_path}\" -d \"{data_dir}\" -f \"{mission_path}\""
-        if run:
-            print(f"$ {command}")
-            import subprocess
-            subprocess.run(command)
-        else:
-            print(
-                "INFO: To reconstruct the mission binary (.msnbin) file, run the following command in a "
-                "Command Prompt:",
-                command,
-                sep="\n"
-            )
+
+        return f"\"{missionresaver_path}\" -d \"{data_dir}\" -f \"{mission_path}\""
     else:
         print(f"ERROR: MissionResaver.exe not found in {missionresaver_path.parent}")
+        return ""
 
 
 def main() -> NoReturn:
@@ -531,18 +523,34 @@ def main() -> NoReturn:
         f.write(mission_text)
     print("done.")
 
-    # INVOKE MISSIONRESAVER.EXE
-    if args.run_missionresaver:
-        print("INFO: Rewriting .msnbin file... (this takes a while)")
-    invoke_MissionResaver(args.mission, args.pwcg_missions_dir, run=args.run_missionresaver)
+    # COSNTRUCT MISSIONRESAVER.EXE COMMAND
+    command = construct_MissionResaver(args.mission, args.pwcg_missions_dir)
 
-    if b"RRRAdder" in args.mission.with_suffix(".msnbin").read_bytes():
-        print("INFO: RRRAdder done.")
+    if args.run_missionresaver:
+        # INVOKE MISSIONRESAVER.EXE
+        print("INFO: Rewriting .msnbin file... (this takes a while)")
+        print(f"$ {command}")
+
+        subprocess.run(command)
+
+        # CHECK MISSION BINARY CONTENTS
+        if b"RRRAdder" in args.mission.with_suffix(".msnbin").read_bytes():
+            print("INFO: RRRAdder done.")
+        else:
+            print("ERROR: Process incomplete: MissionResaver.exe seems to have failed to create a new .msnbin file.")
+            if args.backup_original:
+                msnbackup.replace(args.mission)
+                print("INFO: The original mission has been restored from the backup.")
+
     else:
-        print("ERROR: Process incomplete: MissionResaver.exe seems to have failed to create a new .msnbin file.")
-        if args.backup_original:
-            msnbackup.replace(args.mission)
-            print("INFO: The original mission has been restored from the backup.")
+        print(
+            "INFO: To reconstruct the mission binary (.msnbin) file, run the following command in a "
+            "Command Prompt:",
+            command,
+            sep="\n"
+        )
+
+
 
     input("INPUT: Press ENTER to finish.")
 
