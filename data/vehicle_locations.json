@@ -1,0 +1,960 @@
+{
+    "Epinoy": [
+        {
+            "name": "Ammo (Epinoy)",
+            "country": 401,
+            "location_tuple": [
+                73912.411,
+                79.291,
+                105828.006
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 196.0
+        }
+    ],
+    "Eswars": [
+        {
+            "name": "Ammo (Eswars)",
+            "country": 401,
+            "location_tuple": [
+                73436.881,
+                70.526,
+                113057.969
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 160.0
+        }
+    ],
+    "Cauroir": [
+        {
+            "name": "Ammo (Cauroir)",
+            "country": 401,
+            "location_tuple": [
+                68742.675,
+                55.982,
+                116621.11
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 160.0
+        }
+    ],
+    "Awoingt": [
+        {
+            "name": "Ammo (Awoingt)",
+            "country": 401,
+            "location_tuple": [
+                65063.345,
+                74.51,
+                115827.676
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 160.0
+        },
+        {
+            "name": "Ammo (Awoingt)",
+            "country": 401,
+            "location_tuple": [
+                65407.969,
+                74.51,
+                115654.029
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 287.0
+        },
+        {
+            "name": "Ammo (Awoingt)",
+            "country": 401,
+            "location_tuple": [
+                65635.95,
+                74.51,
+                115830.24
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 44.0
+        }
+    ],
+    "Noyelles": [
+        {
+            "name": "Ammo (Noyelles)",
+            "country": 401,
+            "location_tuple": [
+                63918.344,
+                84.471,
+                109268.862
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 84.0
+        }
+    ],
+    "Beugnatre": [
+        {
+            "name": "Ammo (Beugnatre)",
+            "country": 401,
+            "location_tuple": [
+                61871.539,
+                104.991,
+                86916.267
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 349.0
+        },
+        {
+            "name": "Ammo (Beugnatre)",
+            "country": 401,
+            "location_tuple": [
+                61799.114,
+                104.991,
+                87088.128
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 283.0
+        }
+    ],
+    "Bullecourt": [
+        {
+            "name": "Ammo (Bullecourt)",
+            "country": 401,
+            "location_tuple": [
+                69526.314,
+                80.686,
+                89660.493
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 303.0
+        }
+    ],
+    "Lechelle": [
+        {
+            "name": "Ammo (Lechelle)",
+            "country": 401,
+            "location_tuple": [
+                54070.047,
+                126.508,
+                91998.278
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 141.0
+        }
+    ],
+    "Moislains": [
+        {
+            "name": "Ammo (Moislains)",
+            "country": 401,
+            "location_tuple": [
+                47437.545,
+                125.711,
+                92908.705
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 332.0
+        }
+    ],
+    "Gonnelieu": [
+        {
+            "name": "Ammo (Gonnelieu)",
+            "country": 401,
+            "location_tuple": [
+                55358.228,
+                122.324,
+                106183.573
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 343.0
+        }
+    ],
+    "La Brayelle": [
+        {
+            "name": "Ammo (La Brayelle)",
+            "country": 401,
+            "location_tuple": [
+                90384.278,
+                29.286,
+                95954.172
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 318.0
+        }
+    ],
+    "Guisnain": [
+        {
+            "name": "Ammo (Guisnain)",
+            "country": 401,
+            "location_tuple": [
+                87071.981,
+                29.286,
+                103596.118
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 255.0
+        }
+    ],
+    "Roucourt": [
+        {
+            "name": "Ammo (Roucourt)",
+            "country": 401,
+            "location_tuple": [
+                85961.821,
+                29.286,
+                107090.793
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 299.0
+        }
+    ],
+    "Laneuville": [
+        {
+            "name": "Ammo (Laneuville)",
+            "country": 401,
+            "location_tuple": [
+                103547.782,
+                62.158,
+                97136.462
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 336.0
+        }
+    ],
+    "Houplin": [
+        {
+            "name": "Ammo (Houplin)",
+            "country": 401,
+            "location_tuple": [
+                110470.251,
+                25.501,
+                94176.98
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 73.0
+        }
+    ],
+    "Fromelles": [
+        {
+            "name": "Ammo (Fromelles)",
+            "country": 401,
+            "location_tuple": [
+                116318.466,
+                35.462,
+                86605.172
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 63.0
+        }
+    ],
+    "St. Marguerite": [
+        {
+            "name": "Ammo (St. Marguerite)",
+            "country": 401,
+            "location_tuple": [
+                126898.568,
+                20.719,
+                97313.144
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 194.0
+        }
+    ],
+    "Coutiches": [
+        {
+            "name": "Ammo (Coutiches)",
+            "country": 401,
+            "location_tuple": [
+                96837.364,
+                29.286,
+                107620.644
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 103.0
+        }
+    ],
+    "Aniche": [
+        {
+            "name": "Ammo (Aniche)",
+            "country": 401,
+            "location_tuple": [
+                85281.554,
+                64.549,
+                114277.472
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 219.0
+        }
+    ],
+    "Emerchicourt": [
+        {
+            "name": "Ammo (Emerchicourt)",
+            "country": 401,
+            "location_tuple": [
+                82943.541,
+                64.549,
+                113005.426
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 53.0
+        }
+    ],
+    "Lieu St. Amand": [
+        {
+            "name": "Ammo (Lieu St. Amand)",
+            "country": 401,
+            "location_tuple": [
+                77754.965,
+                72.319,
+                120071.678
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 10.0
+        }
+    ],
+    "Avesnes-le-Sec Est": [
+        {
+            "name": "Ammo (Avesnes-le-Sec Est)",
+            "country": 401,
+            "location_tuple": [
+                76679.865,
+                55.982,
+                122953.762
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 289.0
+        },
+        {
+            "name": "Ammo (Avesnes-le-Sec Est)",
+            "country": 401,
+            "location_tuple": [
+                76662.167,
+                55.982,
+                123124.905
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 349.0
+        },
+        {
+            "name": "Ammo (Avesnes-le-Sec Est)",
+            "country": 401,
+            "location_tuple": [
+                76492.181,
+                55.982,
+                123023.581
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 57.0
+        }
+    ],
+    "Avesnes-le-Sec Ouest": [
+        {
+            "name": "Ammo (Avesnes-le-Sec Ouest)",
+            "country": 401,
+            "location_tuple": [
+                74711.87,
+                62.158,
+                121271.849
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 356.0
+        },
+        {
+            "name": "Ammo (Avesnes-le-Sec Ouest)",
+            "country": 401,
+            "location_tuple": [
+                74897.278,
+                62.158,
+                121270.151
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 43.0
+        },
+        {
+            "name": "Ammo (Avesnes-le-Sec Ouest)",
+            "country": 401,
+            "location_tuple": [
+                74990.015,
+                62.158,
+                121244.135
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 47.0
+        }
+    ],
+    "Haussy": [
+        {
+            "name": "Ammo (Haussy)",
+            "country": 401,
+            "location_tuple": [
+                72211.261,
+                87.061,
+                126850.897
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 286.0
+        },
+        {
+            "name": "Ammo (Haussy)",
+            "country": 401,
+            "location_tuple": [
+                72204.391,
+                87.061,
+                126995.922
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 50.0
+        },
+        {
+            "name": "Ammo (Haussy)",
+            "country": 401,
+            "location_tuple": [
+                72003.882,
+                87.061,
+                126944.935
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 325.0
+        }
+    ],
+    "Briastre": [
+        {
+            "name": "Ammo (Briastre)",
+            "country": 401,
+            "location_tuple": [
+                67425.526,
+                93.038,
+                129213.964
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 346.0
+        }
+    ],
+    "Beauvois-en-Cambrai": [
+        {
+            "name": "Ammo (Beauvois-en-Cambrai)",
+            "country": 401,
+            "location_tuple": [
+                64647.898,
+                109.773,
+                124497.517
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 3.0
+        }
+    ],
+    "Neuvilly": [
+        {
+            "name": "Ammo (Neuvilly)",
+            "country": 401,
+            "location_tuple": [
+                64211.97,
+                118.539,
+                130979.791
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 296.0
+        }
+    ],
+    "Reumont": [
+        {
+            "name": "Ammo (Reumont)",
+            "country": 401,
+            "location_tuple": [
+                57363.326,
+                144.637,
+                129022.814
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 348.0
+        }
+    ],
+    "Busigny": [
+        {
+            "name": "Ammo (Busigny)",
+            "country": 401,
+            "location_tuple": [
+                54069.794,
+                148.622,
+                127058.367
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 307.0
+        }
+    ],
+    "Bohain": [
+        {
+            "name": "Ammo (Bohain)",
+            "country": 401,
+            "location_tuple": [
+                47096.222,
+                134.477,
+                126096.982
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 238.0
+        }
+    ],
+    "Fontane-Uterte": [
+        {
+            "name": "Ammo (Fontane-Uterte)",
+            "country": 401,
+            "location_tuple": [
+                41749.389,
+                103.398,
+                122480.886
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 252.0
+        }
+    ],
+    "Hancourt": [
+        {
+            "name": "Ammo (Hancourt)",
+            "country": 401,
+            "location_tuple": [
+                37673.83,
+                105.191,
+                98634.343
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 299.0
+        }
+    ],
+    "Mesnil-Bruntel": [
+        {
+            "name": "Ammo (Mesnil-Bruntel)",
+            "country": 401,
+            "location_tuple": [
+                36541.141,
+                62.158,
+                90775.158
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 84.0
+        }
+    ],
+    "Flaucourt": [
+        {
+            "name": "Ammo (Flaucourt)",
+            "country": 401,
+            "location_tuple": [
+                38362.068,
+                80.686,
+                83093.799
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 202.0
+        }
+    ],
+    "Cappy": [
+        {
+            "name": "Ammo (Cappy)",
+            "country": 401,
+            "location_tuple": [
+                39047.156,
+                91.444,
+                76900.998
+            ],
+            "vehicle_type": "benzlkw-ammo",
+            "rotation_y": 173.0
+        }
+    ],
+    "Sercus": [
+        {
+            "name": "Ammo (Sercus)",
+            "country": 302,
+            "location_tuple": [
+                126718.943,
+                53.791,
+                55627.137
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 45.0
+        }
+    ],
+    "Treizennes": [
+        {
+            "name": "Ammo (Treizennes)",
+            "country": 302,
+            "location_tuple": [
+                117670.354,
+                27.294,
+                52812.592
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 12.0
+        }
+    ],
+    "Serny": [
+        {
+            "name": "Ammo (Serny)",
+            "country": 302,
+            "location_tuple": [
+                116245.617,
+                98.816,
+                42234.878
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 306.0
+        }
+    ],
+    "Estree-Blanche": [
+        {
+            "name": "Ammo (Estree-Blanche)",
+            "country": 302,
+            "location_tuple": [
+                114983.921,
+                83.077,
+                44569.462
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 245.0
+        }
+    ],
+    "Reclinghem": [
+        {
+            "name": "Ammo (Reclinghem)",
+            "country": 302,
+            "location_tuple": [
+                112661.584,
+                74.51,
+                34941.394
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 295.0
+        }
+    ],
+    "Auchel": [
+        {
+            "name": "Ammo (Auchel)",
+            "country": 302,
+            "location_tuple": [
+                105402.743,
+                91.444,
+                55548.446
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 327.0
+        }
+    ],
+    "Bruay": [
+        {
+            "name": "Ammo (Bruay)",
+            "country": 302,
+            "location_tuple": [
+                102172.299,
+                64.549,
+                59645.679
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 327.0
+        }
+    ],
+    "Conteville": [
+        {
+            "name": "Ammo (Conteville)",
+            "country": 302,
+            "location_tuple": [
+                97863.545,
+                153.802,
+                46738.309
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 349.0
+        }
+    ],
+    "Bryas": [
+        {
+            "name": "Ammo (Bryas)",
+            "country": 302,
+            "location_tuple": [
+                92215.602,
+                153.802,
+                48296.584
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 208.0
+        }
+    ],
+    "Beauvois": [
+        {
+            "name": "Ammo (Beauvois)",
+            "country": 302,
+            "location_tuple": [
+                87985.268,
+                107.581,
+                62294.126
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 158.0
+        },
+        {
+            "name": "Ammo (Beauvois)",
+            "country": 302,
+            "location_tuple": [
+                88080.707,
+                107.581,
+                62325.62
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 199.0
+        }
+    ],
+    "La Targette": [
+        {
+            "name": "Ammo (La Targette)",
+            "country": 302,
+            "location_tuple": [
+                87900.716,
+                109.773,
+                75052.987
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 189.0
+        }
+    ],
+    "Mont St. Eloi": [
+        {
+            "name": "Ammo (Mont St. Eloi)",
+            "country": 302,
+            "location_tuple": [
+                86760.194,
+                107.581,
+                72552.256
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 54.0
+        }
+    ],
+    "Herlin-le-Sec": [
+        {
+            "name": "Ammo (Herlin-le-Sec)",
+            "country": 302,
+            "location_tuple": [
+                87064.058,
+                151.212,
+                45289.398
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 199.0
+        }
+    ],
+    "Le Hameaux": [
+        {
+            "name": "Ammo (Le Hameaux)",
+            "country": 302,
+            "location_tuple": [
+                84413.665,
+                122.324,
+                60553.243
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 159.0
+        }
+    ],
+    "Filescamp": [
+        {
+            "name": "Ammo (Filescamp)",
+            "country": 302,
+            "location_tuple": [
+                83068.007,
+                118.539,
+                62262.486
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 293.0
+        }
+    ],
+    "Soncamp": [
+        {
+            "name": "Ammo (Soncamp)",
+            "country": 302,
+            "location_tuple": [
+                75232.92,
+                171.134,
+                56693.45
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 304.0
+        }
+    ],
+    "Bellevue": [
+        {
+            "name": "Ammo (Bellevue)",
+            "country": 302,
+            "location_tuple": [
+                69977.706,
+                176.115,
+                57742.395
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 150.0
+        }
+    ],
+    "Fienvillers": [
+        {
+            "name": "Ammo (Fienvillers)",
+            "country": 302,
+            "location_tuple": [
+                62508.11,
+                153.802,
+                37556.785
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 136.0
+        },
+        {
+            "name": "Ammo (Fienvillers)",
+            "country": 302,
+            "location_tuple": [
+                62294.189,
+                153.802,
+                37362.716
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 301.0
+        },
+        {
+            "name": "Ammo (Fienvillers)",
+            "country": 302,
+            "location_tuple": [
+                61988.043,
+                153.802,
+                37438.435
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 341.0
+        }
+    ],
+    "Marieux": [
+        {
+            "name": "Ammo (Marieux)",
+            "country": 302,
+            "location_tuple": [
+                60299.626,
+                146.231,
+                50971.782
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 282.0
+        }
+    ],
+    "Vert Galant": [
+        {
+            "name": "Ammo (Vert Galant)",
+            "country": 302,
+            "location_tuple": [
+                57892.063,
+                166.95,
+                45326.957
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 92.0
+        },
+        {
+            "name": "Ammo (Vert Galant)",
+            "country": 302,
+            "location_tuple": [
+                57960.946,
+                166.95,
+                45157.228
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 329.0
+        },
+        {
+            "name": "Ammo (Vert Galant)",
+            "country": 302,
+            "location_tuple": [
+                57749.079,
+                166.95,
+                45309.334
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 210.0
+        }
+    ],
+    "Valheureux": [
+        {
+            "name": "Ammo (Valheureux)",
+            "country": 302,
+            "location_tuple": [
+                56836.836,
+                153.802,
+                41371.031
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 311.0
+        }
+    ],
+    "Lealvillers": [
+        {
+            "name": "Ammo (Lealvillers)",
+            "country": 302,
+            "location_tuple": [
+                56196.059,
+                138.262,
+                58240.913
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 277.0
+        }
+    ],
+    "Braizieux": [
+        {
+            "name": "Ammo (Braizieux)",
+            "country": 302,
+            "location_tuple": [
+                47501.909,
+                129.895,
+                59438.843
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 354.0
+        }
+    ],
+    "Berlangles": [
+        {
+            "name": "Ammo (Berlangles)",
+            "country": 302,
+            "location_tuple": [
+                44631.68,
+                76.901,
+                42104.958
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 354.0
+        },
+        {
+            "name": "Ammo (Berlangles)",
+            "country": 302,
+            "location_tuple": [
+                44713.711,
+                76.901,
+                42112.807
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 94.0
+        }
+    ],
+    "Allonville": [
+        {
+            "name": "Ammo (Allonville)",
+            "country": 302,
+            "location_tuple": [
+                40844.45,
+                77.897,
+                46800.975
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 49.0
+        }
+    ],
+    "Villers Bretonneux": [
+        {
+            "name": "Ammo (Villers Bretonneux)",
+            "country": 302,
+            "location_tuple": [
+                35278.132,
+                41.638,
+                55320.661
+            ],
+            "vehicle_type": "leyland3tonraf-ammo",
+            "rotation_y": 180.0
+        }
+    ]
+}

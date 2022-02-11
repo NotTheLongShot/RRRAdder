@@ -1,0 +1,5018 @@
+# Mission File Version = 1.0;
+
+Vehicle
+{
+  Name = "Ammo (Epinoy)";
+  Index = 5141;
+  LinkTrId = 5142;
+  XPos = 73912.411;
+  YPos = 79.291;
+  ZPos = 105828.006;
+  XOri = 0.00;
+  YOri = 196.47;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5142;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 73912.411;
+  YPos = 79.491;
+  ZPos = 105828.006;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5141;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Eswars)";
+  Index = 5144;
+  LinkTrId = 5145;
+  XPos = 73436.881;
+  YPos = 70.526;
+  ZPos = 113057.969;
+  XOri = 0.00;
+  YOri = 160.44;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5145;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 73436.881;
+  YPos = 70.726;
+  ZPos = 113057.969;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5144;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Cauroir)";
+  Index = 5147;
+  LinkTrId = 5148;
+  XPos = 68742.675;
+  YPos = 55.982;
+  ZPos = 116621.110;
+  XOri = 0.00;
+  YOri = 160.44;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5148;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 68742.675;
+  YPos = 56.182;
+  ZPos = 116621.110;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5147;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Awoingt)";
+  Index = 5150;
+  LinkTrId = 5151;
+  XPos = 65063.345;
+  YPos = 74.510;
+  ZPos = 115827.676;
+  XOri = 0.00;
+  YOri = 160.44;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5151;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 65063.345;
+  YPos = 74.710;
+  ZPos = 115827.676;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5150;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Awoingt)";
+  Index = 5153;
+  LinkTrId = 5154;
+  XPos = 65407.969;
+  YPos = 74.510;
+  ZPos = 115654.029;
+  XOri = 0.00;
+  YOri = 287.35;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5154;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 65407.969;
+  YPos = 74.710;
+  ZPos = 115654.029;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5153;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Awoingt)";
+  Index = 5156;
+  LinkTrId = 5157;
+  XPos = 65635.950;
+  YPos = 74.510;
+  ZPos = 115830.240;
+  XOri = 0.00;
+  YOri = 44.06;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5157;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 65635.950;
+  YPos = 74.710;
+  ZPos = 115830.240;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5156;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Noyelles)";
+  Index = 5159;
+  LinkTrId = 5160;
+  XPos = 63918.344;
+  YPos = 84.471;
+  ZPos = 109268.862;
+  XOri = 0.00;
+  YOri = 84.24;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5160;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 63918.344;
+  YPos = 84.671;
+  ZPos = 109268.862;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5159;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Beugnatre)";
+  Index = 5162;
+  LinkTrId = 5163;
+  XPos = 61871.539;
+  YPos = 104.991;
+  ZPos = 86916.267;
+  XOri = 0.00;
+  YOri = 349.34;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5163;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 61871.539;
+  YPos = 105.191;
+  ZPos = 86916.267;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5162;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Beugnatre)";
+  Index = 5165;
+  LinkTrId = 5166;
+  XPos = 61799.114;
+  YPos = 104.991;
+  ZPos = 87088.128;
+  XOri = 0.00;
+  YOri = 282.94;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5166;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 61799.114;
+  YPos = 105.191;
+  ZPos = 87088.128;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5165;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Bullecourt)";
+  Index = 5168;
+  LinkTrId = 5169;
+  XPos = 69526.314;
+  YPos = 80.686;
+  ZPos = 89660.493;
+  XOri = 0.00;
+  YOri = 303.32;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5169;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 69526.314;
+  YPos = 80.886;
+  ZPos = 89660.493;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5168;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Lechelle)";
+  Index = 5171;
+  LinkTrId = 5172;
+  XPos = 54070.047;
+  YPos = 126.508;
+  ZPos = 91998.278;
+  XOri = 0.00;
+  YOri = 140.51;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5172;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 54070.047;
+  YPos = 126.708;
+  ZPos = 91998.278;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5171;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Moislains)";
+  Index = 5174;
+  LinkTrId = 5175;
+  XPos = 47437.545;
+  YPos = 125.711;
+  ZPos = 92908.705;
+  XOri = 0.00;
+  YOri = 331.97;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5175;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 47437.545;
+  YPos = 125.911;
+  ZPos = 92908.705;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5174;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Gonnelieu)";
+  Index = 5177;
+  LinkTrId = 5178;
+  XPos = 55358.228;
+  YPos = 122.324;
+  ZPos = 106183.573;
+  XOri = 0.00;
+  YOri = 342.55;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5178;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 55358.228;
+  YPos = 122.524;
+  ZPos = 106183.573;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5177;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (La Brayelle)";
+  Index = 5180;
+  LinkTrId = 5181;
+  XPos = 90384.278;
+  YPos = 29.286;
+  ZPos = 95954.172;
+  XOri = 0.00;
+  YOri = 318.16;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5181;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 90384.278;
+  YPos = 29.486;
+  ZPos = 95954.172;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5180;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Guisnain)";
+  Index = 5183;
+  LinkTrId = 5184;
+  XPos = 87071.981;
+  YPos = 29.286;
+  ZPos = 103596.118;
+  XOri = 0.00;
+  YOri = 255.27;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5184;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 87071.981;
+  YPos = 29.486;
+  ZPos = 103596.118;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5183;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Roucourt)";
+  Index = 5186;
+  LinkTrId = 5187;
+  XPos = 85961.821;
+  YPos = 29.286;
+  ZPos = 107090.793;
+  XOri = 0.00;
+  YOri = 299.18;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5187;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 85961.821;
+  YPos = 29.486;
+  ZPos = 107090.793;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5186;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Laneuville)";
+  Index = 5189;
+  LinkTrId = 5190;
+  XPos = 103547.782;
+  YPos = 62.158;
+  ZPos = 97136.462;
+  XOri = 0.00;
+  YOri = 336.08;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5190;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 103547.782;
+  YPos = 62.358;
+  ZPos = 97136.462;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5189;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Houplin)";
+  Index = 5192;
+  LinkTrId = 5193;
+  XPos = 110470.251;
+  YPos = 25.501;
+  ZPos = 94176.980;
+  XOri = 0.00;
+  YOri = 72.73;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5193;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 110470.251;
+  YPos = 25.701;
+  ZPos = 94176.980;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5192;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Fromelles)";
+  Index = 5195;
+  LinkTrId = 5196;
+  XPos = 116318.466;
+  YPos = 35.462;
+  ZPos = 86605.172;
+  XOri = 0.00;
+  YOri = 62.61;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5196;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 116318.466;
+  YPos = 35.662;
+  ZPos = 86605.172;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5195;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (St. Marguerite)";
+  Index = 5198;
+  LinkTrId = 5199;
+  XPos = 126898.568;
+  YPos = 20.719;
+  ZPos = 97313.144;
+  XOri = 0.00;
+  YOri = 194.36;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5199;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 126898.568;
+  YPos = 20.919;
+  ZPos = 97313.144;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5198;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Coutiches)";
+  Index = 5201;
+  LinkTrId = 5202;
+  XPos = 96837.364;
+  YPos = 29.286;
+  ZPos = 107620.644;
+  XOri = 0.00;
+  YOri = 103.15;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5202;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 96837.364;
+  YPos = 29.486;
+  ZPos = 107620.644;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5201;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Aniche)";
+  Index = 5204;
+  LinkTrId = 5205;
+  XPos = 85281.554;
+  YPos = 64.549;
+  ZPos = 114277.472;
+  XOri = 0.00;
+  YOri = 218.51;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5205;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 85281.554;
+  YPos = 64.749;
+  ZPos = 114277.472;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5204;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Emerchicourt)";
+  Index = 5207;
+  LinkTrId = 5208;
+  XPos = 82943.541;
+  YPos = 64.549;
+  ZPos = 113005.426;
+  XOri = 0.00;
+  YOri = 52.87;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5208;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 82943.541;
+  YPos = 64.749;
+  ZPos = 113005.426;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5207;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Lieu St. Amand)";
+  Index = 5210;
+  LinkTrId = 5211;
+  XPos = 77754.965;
+  YPos = 72.319;
+  ZPos = 120071.678;
+  XOri = 0.00;
+  YOri = 9.90;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5211;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 77754.965;
+  YPos = 72.519;
+  ZPos = 120071.678;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5210;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Avesnes-le-Sec Est)";
+  Index = 5213;
+  LinkTrId = 5214;
+  XPos = 76679.865;
+  YPos = 55.982;
+  ZPos = 122953.762;
+  XOri = 0.00;
+  YOri = 288.68;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5214;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 76679.865;
+  YPos = 56.182;
+  ZPos = 122953.762;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5213;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Avesnes-le-Sec Est)";
+  Index = 5216;
+  LinkTrId = 5217;
+  XPos = 76662.167;
+  YPos = 55.982;
+  ZPos = 123124.905;
+  XOri = 0.00;
+  YOri = 348.63;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5217;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 76662.167;
+  YPos = 56.182;
+  ZPos = 123124.905;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5216;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Avesnes-le-Sec Est)";
+  Index = 5219;
+  LinkTrId = 5220;
+  XPos = 76492.181;
+  YPos = 55.982;
+  ZPos = 123023.581;
+  XOri = 0.00;
+  YOri = 57.34;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5220;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 76492.181;
+  YPos = 56.182;
+  ZPos = 123023.581;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5219;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Avesnes-le-Sec Ouest)";
+  Index = 5222;
+  LinkTrId = 5223;
+  XPos = 74711.870;
+  YPos = 62.158;
+  ZPos = 121271.849;
+  XOri = 0.00;
+  YOri = 356.06;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5223;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 74711.870;
+  YPos = 62.358;
+  ZPos = 121271.849;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5222;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Avesnes-le-Sec Ouest)";
+  Index = 5225;
+  LinkTrId = 5226;
+  XPos = 74897.278;
+  YPos = 62.158;
+  ZPos = 121270.151;
+  XOri = 0.00;
+  YOri = 42.98;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5226;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 74897.278;
+  YPos = 62.358;
+  ZPos = 121270.151;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5225;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Avesnes-le-Sec Ouest)";
+  Index = 5228;
+  LinkTrId = 5229;
+  XPos = 74990.015;
+  YPos = 62.158;
+  ZPos = 121244.135;
+  XOri = 0.00;
+  YOri = 47.17;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5229;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 74990.015;
+  YPos = 62.358;
+  ZPos = 121244.135;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5228;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Haussy)";
+  Index = 5231;
+  LinkTrId = 5232;
+  XPos = 72211.261;
+  YPos = 87.061;
+  ZPos = 126850.897;
+  XOri = 0.00;
+  YOri = 286.11;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5232;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 72211.261;
+  YPos = 87.261;
+  ZPos = 126850.897;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5231;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Haussy)";
+  Index = 5234;
+  LinkTrId = 5235;
+  XPos = 72204.391;
+  YPos = 87.061;
+  ZPos = 126995.922;
+  XOri = 0.00;
+  YOri = 50.26;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5235;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 72204.391;
+  YPos = 87.261;
+  ZPos = 126995.922;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5234;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Haussy)";
+  Index = 5237;
+  LinkTrId = 5238;
+  XPos = 72003.882;
+  YPos = 87.061;
+  ZPos = 126944.935;
+  XOri = 0.00;
+  YOri = 324.70;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5238;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 72003.882;
+  YPos = 87.261;
+  ZPos = 126944.935;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5237;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Briastre)";
+  Index = 5240;
+  LinkTrId = 5241;
+  XPos = 67425.526;
+  YPos = 93.038;
+  ZPos = 129213.964;
+  XOri = 0.00;
+  YOri = 346.21;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5241;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 67425.526;
+  YPos = 93.238;
+  ZPos = 129213.964;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5240;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Beauvois-en-Cambrai)";
+  Index = 5243;
+  LinkTrId = 5244;
+  XPos = 64647.898;
+  YPos = 109.773;
+  ZPos = 124497.517;
+  XOri = 0.00;
+  YOri = 2.59;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5244;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 64647.898;
+  YPos = 109.973;
+  ZPos = 124497.517;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5243;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Neuvilly)";
+  Index = 5246;
+  LinkTrId = 5247;
+  XPos = 64211.970;
+  YPos = 118.539;
+  ZPos = 130979.791;
+  XOri = 0.00;
+  YOri = 296.29;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5247;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 64211.970;
+  YPos = 118.739;
+  ZPos = 130979.791;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5246;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Reumont)";
+  Index = 5249;
+  LinkTrId = 5250;
+  XPos = 57363.326;
+  YPos = 144.637;
+  ZPos = 129022.814;
+  XOri = 0.00;
+  YOri = 347.75;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5250;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 57363.326;
+  YPos = 144.837;
+  ZPos = 129022.814;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5249;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Busigny)";
+  Index = 5252;
+  LinkTrId = 5253;
+  XPos = 54069.794;
+  YPos = 148.622;
+  ZPos = 127058.367;
+  XOri = 0.00;
+  YOri = 307.34;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5253;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 54069.794;
+  YPos = 148.822;
+  ZPos = 127058.367;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5252;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Bohain)";
+  Index = 5255;
+  LinkTrId = 5256;
+  XPos = 47096.222;
+  YPos = 134.477;
+  ZPos = 126096.982;
+  XOri = 0.00;
+  YOri = 238.04;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5256;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 47096.222;
+  YPos = 134.677;
+  ZPos = 126096.982;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5255;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Fontane-Uterte)";
+  Index = 5258;
+  LinkTrId = 5259;
+  XPos = 41749.389;
+  YPos = 103.398;
+  ZPos = 122480.886;
+  XOri = 0.00;
+  YOri = 251.89;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5259;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 41749.389;
+  YPos = 103.598;
+  ZPos = 122480.886;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5258;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Hancourt)";
+  Index = 5261;
+  LinkTrId = 5262;
+  XPos = 37673.830;
+  YPos = 105.191;
+  ZPos = 98634.343;
+  XOri = 0.00;
+  YOri = 298.84;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5262;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 37673.830;
+  YPos = 105.391;
+  ZPos = 98634.343;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5261;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Mesnil-Bruntel)";
+  Index = 5264;
+  LinkTrId = 5265;
+  XPos = 36541.141;
+  YPos = 62.158;
+  ZPos = 90775.158;
+  XOri = 0.00;
+  YOri = 84.13;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5265;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 36541.141;
+  YPos = 62.358;
+  ZPos = 90775.158;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5264;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Flaucourt)";
+  Index = 5267;
+  LinkTrId = 5268;
+  XPos = 38362.068;
+  YPos = 80.686;
+  ZPos = 83093.799;
+  XOri = 0.00;
+  YOri = 201.64;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5268;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 38362.068;
+  YPos = 80.886;
+  ZPos = 83093.799;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5267;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Cappy)";
+  Index = 5270;
+  LinkTrId = 5271;
+  XPos = 39047.156;
+  YPos = 91.444;
+  ZPos = 76900.998;
+  XOri = 0.00;
+  YOri = 172.84;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\benzlkw-ammo.txt";
+  Model = "graphics\vehicles\benzlkw\benzlkw-ammo.mgm";
+  Desc = "";
+  Country = 401;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 0;
+  RehealTime = 0;
+  RearmTime = 30;
+  RefuelTime = 30;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5271;
+  Name = "Ammo (Cambrai North) entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 39047.156;
+  YPos = 91.644;
+  ZPos = 76900.998;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5270;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Sercus)";
+  Index = 5273;
+  LinkTrId = 5274;
+  XPos = 126718.943;
+  YPos = 53.791;
+  ZPos = 55627.137;
+  XOri = 0.00;
+  YOri = 45.48;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5274;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 126718.943;
+  YPos = 53.991;
+  ZPos = 55627.137;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5273;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Treizennes)";
+  Index = 5276;
+  LinkTrId = 5277;
+  XPos = 117670.354;
+  YPos = 27.294;
+  ZPos = 52812.592;
+  XOri = 0.00;
+  YOri = 11.75;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5277;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 117670.354;
+  YPos = 27.494;
+  ZPos = 52812.592;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5276;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Serny)";
+  Index = 5279;
+  LinkTrId = 5280;
+  XPos = 116245.617;
+  YPos = 98.816;
+  ZPos = 42234.878;
+  XOri = 0.00;
+  YOri = 305.51;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5280;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 116245.617;
+  YPos = 99.016;
+  ZPos = 42234.878;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5279;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Estree-Blanche)";
+  Index = 5282;
+  LinkTrId = 5283;
+  XPos = 114983.921;
+  YPos = 83.077;
+  ZPos = 44569.462;
+  XOri = 0.00;
+  YOri = 245.09;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5283;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 114983.921;
+  YPos = 83.277;
+  ZPos = 44569.462;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5282;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Reclinghem)";
+  Index = 5285;
+  LinkTrId = 5286;
+  XPos = 112661.584;
+  YPos = 74.510;
+  ZPos = 34941.394;
+  XOri = 0.00;
+  YOri = 295.24;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5286;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 112661.584;
+  YPos = 74.710;
+  ZPos = 34941.394;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5285;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Auchel)";
+  Index = 5288;
+  LinkTrId = 5289;
+  XPos = 105402.743;
+  YPos = 91.444;
+  ZPos = 55548.446;
+  XOri = 0.00;
+  YOri = 327.05;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5289;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 105402.743;
+  YPos = 91.644;
+  ZPos = 55548.446;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5288;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Bruay)";
+  Index = 5291;
+  LinkTrId = 5292;
+  XPos = 102172.299;
+  YPos = 64.549;
+  ZPos = 59645.679;
+  XOri = 0.00;
+  YOri = 327.05;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5292;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 102172.299;
+  YPos = 64.749;
+  ZPos = 59645.679;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5291;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Conteville)";
+  Index = 5294;
+  LinkTrId = 5295;
+  XPos = 97863.545;
+  YPos = 153.802;
+  ZPos = 46738.309;
+  XOri = 0.00;
+  YOri = 348.76;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5295;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 97863.545;
+  YPos = 154.002;
+  ZPos = 46738.309;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5294;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Bryas)";
+  Index = 5297;
+  LinkTrId = 5298;
+  XPos = 92215.602;
+  YPos = 153.802;
+  ZPos = 48296.584;
+  XOri = 0.00;
+  YOri = 207.57;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5298;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 92215.602;
+  YPos = 154.002;
+  ZPos = 48296.584;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5297;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Beauvois)";
+  Index = 5300;
+  LinkTrId = 5301;
+  XPos = 87985.268;
+  YPos = 107.581;
+  ZPos = 62294.126;
+  XOri = 0.00;
+  YOri = 158.28;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5301;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 87985.268;
+  YPos = 107.781;
+  ZPos = 62294.126;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5300;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Beauvois)";
+  Index = 5303;
+  LinkTrId = 5304;
+  XPos = 88080.707;
+  YPos = 107.581;
+  ZPos = 62325.620;
+  XOri = 0.00;
+  YOri = 199.48;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5304;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 88080.707;
+  YPos = 107.781;
+  ZPos = 62325.620;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5303;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (La Targette)";
+  Index = 5306;
+  LinkTrId = 5307;
+  XPos = 87900.716;
+  YPos = 109.773;
+  ZPos = 75052.987;
+  XOri = 0.00;
+  YOri = 188.69;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5307;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 87900.716;
+  YPos = 109.973;
+  ZPos = 75052.987;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5306;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Mont St. Eloi)";
+  Index = 5309;
+  LinkTrId = 5310;
+  XPos = 86760.194;
+  YPos = 107.581;
+  ZPos = 72552.256;
+  XOri = 0.00;
+  YOri = 54.50;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5310;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 86760.194;
+  YPos = 107.781;
+  ZPos = 72552.256;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5309;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Herlin-le-Sec)";
+  Index = 5312;
+  LinkTrId = 5313;
+  XPos = 87064.058;
+  YPos = 151.212;
+  ZPos = 45289.398;
+  XOri = 0.00;
+  YOri = 199.13;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5313;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 87064.058;
+  YPos = 151.412;
+  ZPos = 45289.398;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5312;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Le Hameaux)";
+  Index = 5315;
+  LinkTrId = 5316;
+  XPos = 84413.665;
+  YPos = 122.324;
+  ZPos = 60553.243;
+  XOri = 0.00;
+  YOri = 159.06;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5316;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 84413.665;
+  YPos = 122.524;
+  ZPos = 60553.243;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5315;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Filescamp)";
+  Index = 5318;
+  LinkTrId = 5319;
+  XPos = 83068.007;
+  YPos = 118.539;
+  ZPos = 62262.486;
+  XOri = 0.00;
+  YOri = 293.39;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5319;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 83068.007;
+  YPos = 118.739;
+  ZPos = 62262.486;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5318;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Soncamp)";
+  Index = 5321;
+  LinkTrId = 5322;
+  XPos = 75232.920;
+  YPos = 171.134;
+  ZPos = 56693.450;
+  XOri = 0.00;
+  YOri = 303.50;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5322;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 75232.920;
+  YPos = 171.334;
+  ZPos = 56693.450;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5321;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Bellevue)";
+  Index = 5324;
+  LinkTrId = 5325;
+  XPos = 69977.706;
+  YPos = 176.115;
+  ZPos = 57742.395;
+  XOri = 0.00;
+  YOri = 150.06;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5325;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 69977.706;
+  YPos = 176.315;
+  ZPos = 57742.395;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5324;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Fienvillers)";
+  Index = 5327;
+  LinkTrId = 5328;
+  XPos = 62508.110;
+  YPos = 153.802;
+  ZPos = 37556.785;
+  XOri = 0.00;
+  YOri = 135.50;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5328;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 62508.110;
+  YPos = 154.002;
+  ZPos = 37556.785;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5327;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Fienvillers)";
+  Index = 5330;
+  LinkTrId = 5331;
+  XPos = 62294.189;
+  YPos = 153.802;
+  ZPos = 37362.716;
+  XOri = 0.00;
+  YOri = 300.71;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5331;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 62294.189;
+  YPos = 154.002;
+  ZPos = 37362.716;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5330;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Fienvillers)";
+  Index = 5333;
+  LinkTrId = 5334;
+  XPos = 61988.043;
+  YPos = 153.802;
+  ZPos = 37438.435;
+  XOri = 0.00;
+  YOri = 341.33;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5334;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 61988.043;
+  YPos = 154.002;
+  ZPos = 37438.435;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5333;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Marieux)";
+  Index = 5336;
+  LinkTrId = 5337;
+  XPos = 60299.626;
+  YPos = 146.231;
+  ZPos = 50971.782;
+  XOri = 0.00;
+  YOri = 282.10;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5337;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 60299.626;
+  YPos = 146.431;
+  ZPos = 50971.782;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5336;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Vert Galant)";
+  Index = 5339;
+  LinkTrId = 5340;
+  XPos = 57892.063;
+  YPos = 166.950;
+  ZPos = 45326.957;
+  XOri = 0.00;
+  YOri = 92.21;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5340;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 57892.063;
+  YPos = 167.150;
+  ZPos = 45326.957;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5339;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Vert Galant)";
+  Index = 5342;
+  LinkTrId = 5343;
+  XPos = 57960.946;
+  YPos = 166.950;
+  ZPos = 45157.228;
+  XOri = 0.00;
+  YOri = 328.86;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5343;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 57960.946;
+  YPos = 167.150;
+  ZPos = 45157.228;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5342;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Vert Galant)";
+  Index = 5345;
+  LinkTrId = 5346;
+  XPos = 57749.079;
+  YPos = 166.950;
+  ZPos = 45309.334;
+  XOri = 0.00;
+  YOri = 209.99;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5346;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 57749.079;
+  YPos = 167.150;
+  ZPos = 45309.334;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5345;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Valheureux)";
+  Index = 5348;
+  LinkTrId = 5349;
+  XPos = 56836.836;
+  YPos = 153.802;
+  ZPos = 41371.031;
+  XOri = 0.00;
+  YOri = 310.61;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5349;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 56836.836;
+  YPos = 154.002;
+  ZPos = 41371.031;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5348;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Lealvillers)";
+  Index = 5351;
+  LinkTrId = 5352;
+  XPos = 56196.059;
+  YPos = 138.262;
+  ZPos = 58240.913;
+  XOri = 0.00;
+  YOri = 276.85;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5352;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 56196.059;
+  YPos = 138.462;
+  ZPos = 58240.913;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5351;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Braizieux)";
+  Index = 5354;
+  LinkTrId = 5355;
+  XPos = 47501.909;
+  YPos = 129.895;
+  ZPos = 59438.843;
+  XOri = 0.00;
+  YOri = 354.26;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5355;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 47501.909;
+  YPos = 130.095;
+  ZPos = 59438.843;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5354;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Berlangles)";
+  Index = 5357;
+  LinkTrId = 5358;
+  XPos = 44631.680;
+  YPos = 76.901;
+  ZPos = 42104.958;
+  XOri = 0.00;
+  YOri = 354.26;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5358;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 44631.680;
+  YPos = 77.101;
+  ZPos = 42104.958;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5357;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Berlangles)";
+  Index = 5360;
+  LinkTrId = 5361;
+  XPos = 44713.711;
+  YPos = 76.901;
+  ZPos = 42112.807;
+  XOri = 0.00;
+  YOri = 94.24;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5361;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 44713.711;
+  YPos = 77.101;
+  ZPos = 42112.807;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5360;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Allonville)";
+  Index = 5363;
+  LinkTrId = 5364;
+  XPos = 40844.450;
+  YPos = 77.897;
+  ZPos = 46800.975;
+  XOri = 0.00;
+  YOri = 49.43;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5364;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 40844.450;
+  YPos = 78.097;
+  ZPos = 46800.975;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5363;
+}
+
+
+
+Vehicle
+{
+  Name = "Ammo (Villers Bretonneux)";
+  Index = 5366;
+  LinkTrId = 5367;
+  XPos = 35278.132;
+  YPos = 41.638;
+  ZPos = 55320.661;
+  XOri = 0.00;
+  YOri = 180.12;
+  ZOri = 0.00;
+  Script = "LuaScripts\WorldObjects\vehicles\leyland3tonraf-ammo.txt";
+  Model = "graphics\vehicles\leyland3tonraf\leyland3tonraf-ammo.mgm";
+  Desc = "";
+  Country = 302;
+  NumberInFormation = 0;
+  Vulnerable = 1;
+  Engageable = 1;
+  LimitAmmo = 1;
+  AILevel = 2;
+  DamageReport = 50;
+  DamageThreshold = 1;
+  DeleteAfterDeath = 1;
+  CoopStart = 0;
+  Spotter = -1;
+  BeaconChannel = 0;
+  Callsign = 0;
+  PayloadId = 0;
+  WMMask = 1;
+  Fuel = 1;
+  Callnum = 0;
+  Skin = "";
+  RepairFriendlies = 0;
+  RehealFriendlies = 0;
+  RearmFriendlies = 0;
+  RefuelFriendlies = 0;
+  RepairTime = 30;
+  RehealTime = 30;
+  RearmTime = 0;
+  RefuelTime = 0;
+  MaintenanceRadius = 10;
+  TCode = "%20%20%20%20";
+  TCodeColor = "0000";
+}
+
+
+
+MCU_TR_Entity
+{
+  Index = 5367;
+  Name = "Vehicle entity";
+  Desc = "";
+  Targets = [];
+  Objects = [];
+  XPos = 35278.132;
+  YPos = 41.838;
+  ZPos = 55320.661;
+  XOri = 0.00;
+  YOri = 0.00;
+  ZOri = 0.00;
+  Enabled = 1;
+  MisObjID = 5366;
+}
+
+
+# end of file

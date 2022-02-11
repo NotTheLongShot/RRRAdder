@@ -1,0 +1,20 @@
+{
+    "pwcg_missions_dir": "..\\data\\Missions\\PWCG",
+    "campaign_name": "D2",
+    "backup_original": true,
+    "use_only_friendly": true,
+    "run_missionresaver": true,
+    "maintenanceRadius": 120,
+    "repair": false,
+    "heal": false,
+    "rearm": true,
+    "refuel": true,
+    "repairTime": 0,
+    "healTime": 0,
+    "rearmTime": 1000000,
+    "refuelTime": 1000000,
+    "airfields": [
+        "active_in_mission_box"
+    ],
+    "overrides": {}
+}
