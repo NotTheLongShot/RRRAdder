@@ -6,7 +6,7 @@ you've already shot down more than they have put together. No longer must you fe
 turn your engine off, and instruct the invisible ground crew to resupply you!
 
 This script adds a maintenance truck to airfields in Pat Wilson's Campaign Generator IL-2 Great Battles: Flying Circus
-careers. These zones allow you to rearm, refuel, and repair (RRR) your plane as well as heal your pilot (cheating).
+careers. These trucks allow you to rearm, refuel, and repair (RRR) your plane as well as heal your pilot (cheating).
 
 ## What does it do?
 The script inserts one or more of a set of hand-placed maintenance vehicles onto airfields in the Arras Spring 1918 map.
@@ -37,54 +37,58 @@ implied warranties, including any warranty of merchantability and warranty of fi
       config file.
 
 ### Setup
-1. Edit the `config.json` file to include:
-   1. The `pwcg_missions_dir`, the directory for PWCG misisons. If you have put it in the IL-2 installation folder this
-      can be left as the default relative path.
-      1. Even if you are not using this with PWCG, please point this at a directory (doesn't have to exist) within the
-         `data\Missions` directory, because the script uses this path to find `MissionResaver.exe` later.
-      2. Make sure you use double-backslashes (`\\`) to delimit Windows paths!
-   2. The `campaign_name` of your PWCG career; e.g. `D2`, `biggles_flies_again`, etc.
-   3. Whether you want to `use_only_friendly`
-      1. You can't use enemy locations anyway and nor can enemy AI, so you should probably leave it as `true` unless
-         you're doing some kind of PvP coop.
-      2. Countries are friendly to each other if they start with the same number (see Notes > Valid overrides) but I 
-         haven't checked if they will 'maintain' one another.
-   4. Whether you want to `run_missionresaver`. `MissionResaver.exe` is part of your IL-2: Great Battles installation
-      and converts plaintext (`.mission`) files into mission binary (`.msnbin`) files. RRRAdder can run this command for
-      you as a subprocess but if you're uncomfortable with that, set this to `false` and it will print the necessary 
-      command but not run it.
-   5. The `maintenanceRadius` - the area around the truck in which you can receive maintenance.
-      1. Values between 10 and 80 will mean you probably have to taxi to somewhere near the truck.
-      2. Values between 200 and 500 will probably mean you can get maintainance almost anywhere on the field, except in
-         very large airfields.
-   6. Which of the facilities you want - `rearm`/`refuel`/`repair`/`heal`.
-      1. These must either be `true`/`false` (**case sensitive**) or `0`/`1`.
-      2. Healing is cheating.
-      3. TODO: does this actually do anything?
-   7. The `rearmTime`, `refuelTime`, `repairTime`, and `healTime` multipliers. These should be >`0.0` for the facilities
-      you have enabled.
-      1. These do have an effect in some sense. If you set refuelTime to 1000000, refuelling becomes near-instantanious,
-         but this is opposite of the expected behaviour as either a base time in seconds (or ticks of 20ms?) or a
-         multiplier of an existing base time, as suggested by the STEditor UI.
-   8. Which `airfields` you want to include.
-      1. Leaving this list empty will include all locations.
-      2. `home` will make the script include the closest airfield to your spawn point - your home field unless
-         you're doing an air start.
-      3. `active_in_mission_box` will include all airfields that are active (not abandoned) and within the mission box
-         (depending on your PWCG CPU usage settings) as denoted by airfields that are <1 km away from an AA gun.
-      4. Specific airfield names. A variety of airfield names are valid. For example, the airfield in square `1004.1`,
-         can be included in the following ways:
-         1. The specific airfield name given in the map (e.g. `Braizieux`). Some of these are only visible if you
-            zoom in.
-         2. The nearby town name used by PWCG (e.g. `Warley Bailion` and `Warloy Bailion`)
-         3. The map spelling of the same town if it differs (e.g. `Warloy Baillon`).
-         - If there are multiple airfields with related names (e.g. square `0711.1`, `Avesnes-le-Sec Ouest`) use the
-            map airfield name (`Avesnes-le-Sec Ouest`) OR the PWCG spelling (`Avesnes Le Sec 3`), but NOT the map 
-            spelling of the town name (`Avesnes-le-Sec`) if it differs.
-      6. Airfield names are **case-sensitive *and* hyphen-sensitive**. If in doubt, look up the map name.
-      7. If `use_only_friendly` is enabled, any airfields in your selection that are registered to the opposing forces
-         will be ignored.
-   9. `overrides` - see Notes > Valid overrides
+#### Quick
+Edit the `config.json` so that the `campaign_name` parameter is the name of your PWCG career.
+
+#### Full
+Edit the `config.json` file as follows:
+1. The `pwcg_missions_dir`, the directory for PWCG misisons. If you have put it in the IL-2 installation folder this
+   can be left as the default relative path.
+   1. Even if you are not using this with PWCG, please point this at a directory (doesn't have to exist) within the
+      `data\Missions` directory, because the script uses this path to find `MissionResaver.exe` later.
+   2. Make sure you use double-backslashes (`\\`) to delimit Windows paths!
+2. The `campaign_name` of your PWCG career; e.g. `D2`, `biggles_flies_again`, etc.
+3. Whether you want to `use_only_friendly`
+   1. You can't use enemy locations anyway and nor can enemy AI, so you should probably leave it as `true` unless
+      you're doing some kind of PvP coop.
+   2. Countries are friendly to each other if they start with the same number (see Notes > Valid overrides) but I 
+      haven't checked if they will 'maintain' one another.
+4. Whether you want to `run_missionresaver`. `MissionResaver.exe` is part of your IL-2: Great Battles installation
+   and converts plaintext (`.mission`) files into mission binary (`.msnbin`) files. RRRAdder can run this command for
+   you as a subprocess but if you're uncomfortable with that, set this to `false` and it will print the necessary 
+   command but not run it.
+5. The `maintenanceRadius` - the area around the truck in which you can receive maintenance.
+   1. Values between 10 and 80 will mean you probably have to taxi to somewhere near the truck.
+   2. Values between 200 and 500 will probably mean you can get maintainance almost anywhere on the field, except in
+      very large airfields.
+6. Which of the facilities you want - `rearm`/`refuel`/`repair`/`heal`.
+   1. These must either be `true`/`false` (**case sensitive**) or `0`/`1`.
+   2. Healing is cheating.
+   3. TODO: does this actually do anything?
+7. The `rearmTime`, `refuelTime`, `repairTime`, and `healTime` multipliers. These should be >`0.0` for the facilities
+   you have enabled.
+   1. These do have an effect in some sense. If you set refuelTime to 1000000, refuelling becomes near-instantanious,
+      but this is opposite of the expected behaviour as either a base time in seconds (or ticks of 20ms?) or a
+      multiplier of an existing base time, as suggested by the STEditor UI.
+8. Which `airfields` you want to include.
+   1. Leaving this list empty will include all locations.
+   2. `home` will make the script include the closest airfield to your spawn point - your home field unless
+      you're doing an air start.
+   3. `active_in_mission_box` will include all airfields that are active (not abandoned) and within the mission box
+      (depending on your PWCG CPU usage settings) as denoted by airfields that are <1 km away from an AA gun.
+   4. Specific airfield names. A variety of airfield names are valid. For example, the airfield in square `1004.1`,
+      can be included in the following ways:
+      1. The specific airfield name given in the map (e.g. `Braizieux`). Some of these are only visible if you
+         zoom in.
+      2. The nearby town name used by PWCG (e.g. `Warley Bailion` and `Warloy Bailion`)
+      3. The map spelling of the same town if it differs (e.g. `Warloy Baillon`).
+      - If there are multiple airfields with related names (e.g. square `0711.1`, `Avesnes-le-Sec Ouest`) use the
+         map airfield name (`Avesnes-le-Sec Ouest`) OR the PWCG spelling (`Avesnes Le Sec 3`), but NOT the map 
+         spelling of the town name (`Avesnes-le-Sec`) if it differs.
+   5. Airfield names are **case-sensitive *and* hyphen-sensitive**. If in doubt, look up the map name.
+   6. If `use_only_friendly` is enabled, any airfields in your selection that are registered to the opposing forces
+      will be ignored.
+9. `overrides` - see Notes > Valid overrides
 - **N.B.** you can have more than one config.json file (e.g. one for each of your campaigns or pilots) in the directory - 
    see Usage pt. 4.ii and 4.iv.
 
