@@ -1,6 +1,6 @@
 {
     "pwcg_missions_dir": "..\\data\\Missions\\PWCG",
-    "campaign_name": "D2",
+    "campaign_name": "REPLACE",
     "backup_original": true,
     "use_only_friendly": true,
     "run_missionresaver": true,
@@ -11,8 +11,8 @@
     "refuel": true,
     "repairTime": 0,
     "healTime": 0,
-    "rearmTime": 1000000,
-    "refuelTime": 1000000,
+    "rearmTime": 1,
+    "refuelTime": 1,
     "airfields": [
         "active_in_mission_box"
     ],
